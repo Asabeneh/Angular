@@ -2,13 +2,27 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>NinjaDirectory</title>
+  <title>Angular Directory</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- <link href = "./assets/styles.css" rel ="stylesheet" type ="text/css" /> -->
 </head>
 <body>
   <app-root>Loading...</app-root>
 </body>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAzIbJ7BXw1NJmbxYqcRXR2BdO_9ys99Lw",
+    authDomain: "peopledirectory-8e79c.firebaseapp.com",
+    databaseURL: "https://peopledirectory-8e79c.firebaseio.com",
+    storageBucket: "peopledirectory-8e79c.appspot.com",
+    messagingSenderId: "241998850019"
+  };
+  firebase.initializeApp(config);
+</script>
 </html>

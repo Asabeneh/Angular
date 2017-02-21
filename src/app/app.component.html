@@ -1,3 +1,16 @@
 <h1>
-  {{title}}
+  <!-- {{title}} {{name}} {{age}} -->
 </h1>
+<header>
+  <nav>
+    <ul>
+      <li><a [routerLink] = "['/']">Home</a></li>
+      <li><a [routerLink] = "['/directory']">Directory</a></li>
+    </ul>
+  </nav>
+</header>
+<section id = "main">
+<!-- <app-home [ninja] = "ninja" (onYell) = "yell($event)">Hello Ninnas</app-home> -->
+<router-outlet></router-outlet>
+
+</section>

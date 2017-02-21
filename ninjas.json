@@ -1,0 +1,5 @@
+[
+  {"name":"Asabeneh","belt":"Brown","title":"Mr.","age":100,"qual":"Programmer","img":"../assets/logo.png"},
+  {"name":"Shitahun","belt":"skyblue","title":"Mr.","age":120,"qual":"Graphics Designer","img":"../assets/logo.png"},
+  {"name":"Yetayeh","belt":"Red","title":"Mr.","age":100,"qual":"Developer","img":"../assets/logo.png"}
+]
